@@ -55,3 +55,89 @@ flex-grow: 1;
 align-items: flex-end;    
 font-size: 30px;    
 }
+
+.header{
+    background-color:#999;
+   display: flex;
+    justify-content:space-between;
+}
+.left{
+    font-family: monospace;
+    font-size:45px;
+   padding-left: 40px;
+}
+.right{
+ padding-top: 30px;
+padding-right: 40px;
+}
+@media screen and (min-height:768px){
+    
+    .header {
+        font-size: 100px;
+    }
+    .container{
+        
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 45%;  
+padding: 10px 10px 10px 10px;
+justify-content: center;
+}
+    
+    .container > li {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    
+}
+input{
+padding:40px 40px 40px 40px;
+    flex-grow: 1;
+    border-radius: 5px;
+border-color: black;
+}
+
+
+::placeholder {
+    text-align: center;
+    font-size: 45px;
+    
+}
+    #hey{
+        font-size: 35px;
+    }
+    
+    .header{
+    background-color:#999;
+   display: flex;
+flex-flow: column;
+ align-items: center;
+    }
+.left{
+    font-family: monospace;
+    font-size:75px;
+}
+.right{
+ padding-top: 20px;
+font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+    #det{
+        font-size: 60px;
+    }   
+    .container{
+  margin-top: 200px;
+    }
+    
+    #temp{
+        font-size: 60px;
+    }
+    .label{
+    font-size:50px;
+    }
+    .value{
+    font-size: 50px;
+    }
+}
