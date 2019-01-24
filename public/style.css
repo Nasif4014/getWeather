@@ -1,0 +1,57 @@
+body {
+background-image:url('adventure-alpine-background-355770.jpg');
+background-repeat: no-repeat;
+background-size: cover;    
+}
+    h1,h5{
+        text-align:center;
+    }
+
+    #det{
+    font-size:30px;    
+   text-align:center;
+    background-color:whitesmoke;    
+    margin-top: 5%;
+     
+
+}
+
+#temp{
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+#tempFont{
+    font-size: 40px;
+}
+    .container{
+        text-align:center;
+        background-color: darkgrey;
+    }
+
+
+
+.container{
+    margin-left: 30%;
+margin-right: 30%;
+margin-top: 5%;        
+ padding: 20px 20px 20px 20px;
+justify-content: center  
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+}
+
+.label{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.value{
+flex-grow: 1;
+align-items: flex-end;    
+font-size: 30px;    
+}

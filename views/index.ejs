@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/public/style.css">
+<style>
+
+
+    
+</style>
+         
+
+    </head>
+    <body>
+ <h1>Get Weather</h1>
+        <div id='temp'>Today The Temparature Is<span id="tempFont"> <%=temp %></span><span>&#8451</span>  In  <%=city%> </div>
+<div  id="det"><span>Detailed information</span></div>
+
+
+        <div id='detail' hidden>
+        <ul class='container'>    
+            <li><span class="label">Description:</span> <span class="value"><%=des%></span></li>        
+            <li><span class="label">Pressure:</span> <span class="value"><%=pressure%> hPa</span></li>        
+            <li><span class="label">Humidity</span><span class="value"><%=humidity%>%</span></li>   
+            
+              <li><span class="label">Wind Speed</span><span class="value"><%=wind%>m/s</span></li>  
+            </ul>
+            </div>
+     
+        <script >
+          
+        $('#det').on({
+    
+    mouseenter:function(){
+        $(this).css("background-color","gray")
+    },
+    mouseleave:function(){
+        $(this).css('background-color','whitesmoke ')
+    },
+    click:function(){
+        
+       
+         $('#detail').slideToggle("slow")
+        
+       
+    }        
+    
+})
+        
+    </script>
+        
+    </body>
+    
+    
+
+</html>
+
+
+
+
