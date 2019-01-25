@@ -54,6 +54,7 @@ padding-right: 40px;
 @media screen and (min-height:768px){
     body {
 background-image:url('adventure-alpine-background-355770.jpg');
+   height:100vh;         
 background-repeat: no-repeat;
 -webkit-background-size: cover; 
 background-attachment: fixed;
